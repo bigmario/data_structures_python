@@ -1,4 +1,4 @@
-from listas_enlazadas.node import Node
+from nodos.node import Node
 
 def run():
     print('**** Forma Manual *****')
