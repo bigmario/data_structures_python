@@ -19,6 +19,9 @@ def run():
         print(word)
 
 
+    words.search('hhj')
+
+
 
 
 if __name__ == '__main__':
