@@ -48,7 +48,8 @@ class SinglyLinkedList():
 
     def search(self, data):
         for node in self.iter():
-            print(f'Data {data} found!')
+            if data == node:
+                print(f'Data {data} found!')
 
     def clear(self):
         self.tail=None
