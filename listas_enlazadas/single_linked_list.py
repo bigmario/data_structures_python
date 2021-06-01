@@ -51,6 +51,7 @@ class SinglyLinkedList():
         for node in self.iter():
             if data == node:
                 found = True
+                break
         
         if found:        
             print(f'Data {data} found!')
