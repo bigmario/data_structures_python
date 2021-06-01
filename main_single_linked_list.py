@@ -19,7 +19,7 @@ def run():
         print(word)
 
 
-    words.search('hhj')
+    words.search('ham')
 
 
 
